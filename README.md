@@ -4,7 +4,8 @@
 **기획·지시·검증·배포 판단은 제가 하고, 구현은 Claude Code 에이전트 4명으로 꾸린 팀이 맡았습니다.**
 이 저장소는 그 개발 방식을 보여 주는 소개용 저장소입니다. 게임 본 저장소는 원작 추출 데이터와 라이선스가 제한된 모델이 들어 있어 비공개이며, 요청하시면 열람 권한을 드립니다.
 
-<!-- MEDIA:HERO -->
+<p align="center"><img src="media/00_hero_cutin_combat.gif" alt="상위 유닛 컷인과 전투" width="720"></p>
+<p align="center"><sub>상위 등급 유닛 컷인과 스킬 전투 · <a href="media/00_hero_cutin_combat.mp4">고화질 mp4</a></sub></p>
 
 | | |
 |---|---|
@@ -16,13 +17,23 @@
 
 ## 게임 플레이
 
-<!-- MEDIA:CLIPS -->
+| 위습 → 뽑기 → 유닛 이동 | 컷인 4연속 → 상위 유닛 전투 |
+|---|---|
+| <img src="media/01_flow_wisp_draw_combine.gif" alt="위습 뽑기 흐름" width="400"> | <img src="media/02_cutin_and_combat.gif" alt="컷인과 전투" width="400"> |
+| [mp4 (20초)](media/01_flow_wisp_draw_combine.mp4) | [mp4 (10초)](media/02_cutin_and_combat.mp4) |
 
 - 위습을 뽑기 포탈에 보내 무작위 유닛을 얻고, 같은 유닛이나 정해진 재료를 모아 상위 등급으로 조합합니다(13단계).
 - 유닛 240여 기, 스킬 950여 개, 난이도 6종, 스토리 보스, 최대 4인 협동 멀티플레이를 지원합니다.
 - 원작 맵 파일(w3x)의 유닛·능력 데이터(w3u·w3a)와 트리거(JASS)를 직접 디코드해 수치를 옮겼습니다.
 
-<!-- MEDIA:SHOTS -->
+| | |
+|---|---|
+| ![타이틀](media/shots/02_title_menu.jpg) | ![난이도 선택](media/shots/03_difficulty_select.jpg) |
+| ![스킬 전투](media/shots/10_combat_skill_effect.jpg) | ![전투](media/shots/11_combat_skills.jpg) |
+| ![보스 라운드](media/shots/12_boss_round.jpg) | ![조합표](media/shots/04_combine_table.jpg) |
+| ![초월 컷인](media/shots/06_cutin_transcend.jpg) | ![영원 컷인](media/shots/09_cutin_eternal.jpg) |
+
+<sub>영상과 스크린샷은 AI 에이전트(구현담당2)가 에디터 브리지에 녹화 옵션을 직접 추가해 자동 플레이로 찍었습니다.</sub>
 
 ## AI 에이전트 팀 구조
 
